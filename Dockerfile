@@ -9,6 +9,7 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends \
                     nginx \
                     nginx-extras \
+                    libnginx-mod-http-fancyindex \
                     apache2-utils && \
                     rm -rf /var/lib/apt/lists
 
