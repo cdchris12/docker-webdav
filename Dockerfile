@@ -1,9 +1,9 @@
 FROM debian:10.6-slim
 
-LABEL maintainer "ugeek. ugeekpodcast@gmail.com" 
+LABEL maintainer "cdchris12, cdchris12@gmail.com" 
 
-ARG UID=${UID:-1000}
-ARG GID=${GID:-1000}
+ARG UID=${UID:-1001}
+ARG GID=${GID:-1001}
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
